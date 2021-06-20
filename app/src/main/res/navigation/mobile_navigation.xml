@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="mx.edu.tesoem.isc.emm.proyectofinal.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="mx.edu.tesoem.isc.emm.proyectofinal.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/usuarios"
+        android:name="mx.edu.tesoem.isc.emm.proyectofinal.ui.usuarios"
+        android:label="usuarios" />
+    <fragment
+        android:id="@+id/usuarioInfoFragment"
+        android:name="mx.edu.tesoem.isc.emm.proyectofinal.ui.UsuarioInfoFragment"
+        android:label="usuario_info_fragment"
+        tools:layout="@layout/usuario_info_fragment" />
+    <fragment
+        android:id="@+id/agregarFragment"
+        android:name="mx.edu.tesoem.isc.emm.proyectofinal.AgregarFragment"
+        android:label="agregar_fragment"
+        tools:layout="@layout/agregar_fragment" />
+    <fragment
+        android:id="@+id/actualizarFragment"
+        android:name="mx.edu.tesoem.isc.emm.proyectofinal.ui.ActualizarFragment"
+        android:label="actualizar_fragment"
+        tools:layout="@layout/actualizar_fragment" />
+    <fragment
+        android:id="@+id/eliminarFragment"
+        android:name="mx.edu.tesoem.isc.emm.proyectofinal.ui.EliminarFragment"
+        android:label="eliminar_fragment"
+        tools:layout="@layout/eliminar_fragment" />
+
+</navigation>
